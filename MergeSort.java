@@ -13,6 +13,7 @@ public class MergeSort {
                 so to avoid space complexity, we should use ...
         */
         int mid = startIndex + (endIndex - startIndex) / 2;
+        
         devide(arr, startIndex, mid);
         devide(arr, mid+1, endIndex);
         conquer(arr, startIndex, endIndex, mid);

@@ -8,16 +8,15 @@ public class InsertionSort {
             int j = i-1;
 
             while ((j >= 0) && (current < arr[j])) {
-                arr[j+1] = arr[j];  //pushing element to right side
+                arr[j+1] = arr[j];      //pushing element to right side
                 j--;
             }
 
-            arr[j+1] = current; //placing current(small) element at blank place 
+            arr[j+1] = current;         //placing current(small) element at blank place 
         }
     }
 
     public static void main(String[] args) {
-        
         System.out.println("Enter size of array:");
         Scanner scan1 = new Scanner(System.in);
         int size = scan1.nextInt();

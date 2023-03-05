@@ -6,14 +6,13 @@ public class RecEx1 {
             return 1;
         }
 
-        int intermediat = factorial(num - 1);
+        int intermediat = factorial(num - 1);   //Recursion
         int result = num * intermediat;
 
         return result;
     }
 
     public static void main(String[] args) {
-        
         int num = 5;
         factorial(num);
     }

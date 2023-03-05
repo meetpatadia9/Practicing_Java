@@ -11,7 +11,7 @@ class MonoalphabeticCipher {
                                         'X', 'C', 'V', 'B', 'N', 'M' };
 
 
-    //          DATA ENCRYPTION 
+    //  DATA ENCRYPTION 
     public static String stringEncryption(String str)
     {
         String encryptedString = "";
@@ -33,7 +33,7 @@ class MonoalphabeticCipher {
         return encryptedString;
     }
 
-    //          DATA DECRYPTION
+    //  DATA DECRYPTION
     public static String stringDecryption(String str)
     {
         String decryptedString = "";

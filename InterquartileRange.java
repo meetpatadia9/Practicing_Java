@@ -1,3 +1,24 @@
+/*
+!                   Interquartile Range(IQR)
+*/
+
+/*
+?       In descriptive statistics, the Interquartile Range is a measure of statistical dispersion, 
+?       which is the spread of the data. The IQR may also be called the midspread, middle 50%, 
+?       fourth spread, or H‑spread. It is defined as the difference between the 75th and 25th 
+?       percentiles of the data 
+*/
+
+/*
+*    [ -7 | 1 | 5 | 2 | -4 | 3 | 0 ]
+!          ↥        ↥        ↥
+!         Q1       Q2       Q3         
+    suppose we have array as above, so 50% of that we'll be Q2.
+    now, we'll find MID value of lower-half(start to mid) which is Q1,
+    and upper-half(mid to end) which is Q3.
+
+    and, IQR will be (Q3-Q1)
+*/
 import java.util.*;
 import java.util.Scanner;
 

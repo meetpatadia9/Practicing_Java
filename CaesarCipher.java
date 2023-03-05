@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CaesarCipher {
     
-    //          DATA ENCRYPTION
+    //  DATA ENCRYPTION
     public static void dataEncrypt(String str, int key) {
         StringBuffer encryptStr = new StringBuffer();
         for (int i = 0; i < str.length(); i++) {
@@ -40,7 +40,7 @@ public class CaesarCipher {
         dataDecrypt(encryptStr, key);
     }
 
-    //          DATA DECRYPTION
+    //  DATA DECRYPTION
     public static StringBuffer dataDecrypt(StringBuffer str, int key) {
         StringBuffer decryptStr = new StringBuffer();
         for (int i = 0; i < str.length(); i++) {

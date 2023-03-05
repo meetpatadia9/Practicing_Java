@@ -21,7 +21,6 @@ public class CheckComment {
     }
 
     public static void main(String[] args) {
-
         System.out.println("Enter String:");
         
         Scanner scan = new Scanner(System.in);

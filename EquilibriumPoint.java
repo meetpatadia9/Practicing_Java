@@ -40,31 +40,33 @@ public class EquilibriumPoint {
         return -1;
     }
 
-    // int equilibrium(int arr[], int size) {
-    //     int i, j;
-    //     for(i=0; i < size; i++) {
+    /*
+    int equilibrium(int arr[], int size) {
+        int i, j;
+        for(i=0; i < size; i++) {
 
-    //         //for LEFT-SIDE of Sum
-    //         int leftsum = 0;
-    //         for(j=0; j<i; j++) {
-    //             leftsum = leftsum + arr[j];
-    //         }
+            //for LEFT-SIDE of Sum
+            int leftsum = 0;
+            for(j=0; j<i; j++) {
+                leftsum = leftsum + arr[j];
+            }
 
-    //         //for RIGHT-SIDE of Sum
-    //         int rightsum = 0;
-    //         for(j=i+1; j < size; j++) {
-    //             rightsum = rightsum + arr[j];
-    //         }
+            //for RIGHT-SIDE of Sum
+            int rightsum = 0;
+            for(j=i+1; j < size; j++) {
+                rightsum = rightsum + arr[j];
+            }
 
-    //         //compare both side
-    //         if(leftsum == rightsum) {
-    //             System.out.println("Equilibrium Point is:");
-    //             return i;
-    //         }
-    //     }
-    //     //if EQUILIBRIUM POINT is not Found
-    //     return -1;
-    // }
+            //compare both side
+            if(leftsum == rightsum) {
+                System.out.println("Equilibrium Point is:");
+                return i;
+            }
+        }
+        //if EQUILIBRIUM POINT is not Found
+        return -1;
+    }
+    */
 
     public static void main(String[] args) {
         EquilibriumPoint ep = new EquilibriumPoint();
